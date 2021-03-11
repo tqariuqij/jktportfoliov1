@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.intro{
+    padding: 0px 150px;
+    margin: 0px auto;
+    width: 100%;
+    height: 100vh;
+}
+.intro__section{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    /* padding: 50px 0px; */
+    max-width: 1000px;
+}
+
+.intro__hi h1{
+    color: #64ffda;
+    font-size: clamp(1rem, 2.7vw, 2.5rem );
+    font-weight: 400;
+    font-family: 'Share Tech Mono', monospace;
+    line-height: 18px;
+}
+
+.intro__heading{
+    font-family: 'Poppins', sans-serif;
+    color: #ccd6f6;
+    font-weight: 600;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: 112px;
+}
+
+.intro__heading h2{
+    color: #8892b0;
+}
+
+.intro__paragraph{
+    font-family: 'Poppins', sans-serif;
+    color:#8892b0;
+}
+
+.intro__button{
+    padding: 50px 0px;
+}
+
+.intro__button {
+    padding: 20px 30px;
+    margin: 40px 0;
+    background-color: #0A192F;
+    outline:2px solid  #64ffda;
+}
+
+.intro__button h1 {
+    color: #64ffda;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .intro{
+        padding: 100px 50px;
+    }
+}

@@ -1,0 +1,73 @@
+.contacts {
+    display: block;
+    margin: 100px auto;
+    padding: 100px 150px;
+    width: 100%;
+    max-width: 1000px;
+    height: 30vh;
+}
+
+.contacts h2  {
+    color: #64ffda;
+    font-size: clamp(1rem, 2vw, 3rem );
+    font-weight: 400;
+    font-family: 'Space Mono', monospace;
+    margin: 10px 0;
+}
+
+.contacts h2::before{
+    content: '3.';
+    color: #64ffda;
+}
+
+.contacts h1 {
+    color: #ccd6f6;
+    font-size: clamp(1.1rem, 2.2vw, 3.1rem );
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.contacts p {
+    color: #8892b0 ;
+    font-size: clamp(0.85rem, 1.7vw, 2rem );
+    font-weight: 400;
+    font-family: 'Space Mono', monospace;
+    margin: 10px 0;
+}
+.contacts h3 {
+    color: #64ffda ;
+    font-size: clamp(0.85rem, 1.7vw, 2rem );
+    font-weight: 400;
+    font-family: 'Space Mono', monospace;
+    margin: 10px 0;
+
+}
+
+
+.button {
+    padding: 20px 30px;
+    margin: 40px 0;
+    height: 30px;
+    width: 100px;
+    background-color: #0A192F;
+    outline:2px solid  #64ffda;
+}
+
+.button h1 {
+    color: #64ffda;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+
+@media (max-width:600px) {
+    .contacts{
+        padding: 50px 50px;
+        height: 30vh;
+        z-index: 1;
+    }
+}
